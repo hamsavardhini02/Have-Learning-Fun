@@ -2,12 +2,12 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/WordPress
+    destination: /var/www/html
 hooks:
   BeforeInstall:
-    - location: install_requirements
+    - location: ./install_requirements
       runas: ec2-user
   ApplicationStart:
-    - location: start_server
+    - location: ./start_server
       runas: ec2-user
 
