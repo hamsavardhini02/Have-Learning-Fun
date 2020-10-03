@@ -6,11 +6,8 @@ files:
 hooks:
   BeforeInstall:
     - location: install_requirements
-      timeout: 300
       runas: ec2-user
   ApplicationStart:
     - location: start_server
-    - location: scripts/create_test_db.sh
-      timeout: 300
       runas: ec2-user
 
