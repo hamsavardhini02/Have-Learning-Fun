@@ -1,8 +1,1 @@
-
-#upgrade pip
-pip install --upgrade pip
-#Install dependency
-pip install flask
-
-#set environment variable for flask to start and stop server for the purpose of code deployment
-#export FLASK_APP=python_app_in_aws
+yum install -y httpd
