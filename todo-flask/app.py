@@ -1,5 +1,5 @@
 from flask import Flask           # import flask
-app = Flask("python+app_in_aws")             # create an app instance
+app = Flask("python_app_in_aws")             # create an app instance
 
 @app.route("/<name>")                   # at the end point /
 def hello(name):                      # call method hello
