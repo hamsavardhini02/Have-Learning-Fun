@@ -1,2 +1,2 @@
 #start flask server
-flask run
+python app.py
