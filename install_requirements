@@ -1,1 +1,3 @@
 yum install -y httpd
+pip install --upgrade pip
+pip install flask
