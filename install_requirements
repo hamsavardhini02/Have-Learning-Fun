@@ -5,4 +5,4 @@ pip install --upgrade pip
 pip install flask
 
 #set environment variable for flask to start and stop server for the purpose of code deployment
-export FLASK_APP=python_app_in_aws
+#export FLASK_APP=python_app_in_aws
