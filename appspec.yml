@@ -7,3 +7,6 @@ hooks:
   BeforeInstall:
     - location: ./install_requirements
       runas: root
+  ApplicationStart:
+    - location: ./start_server.sh
+      runas: root
