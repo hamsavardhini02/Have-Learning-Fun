@@ -1,2 +1,2 @@
 #!/bin/sh
-python ./todo-flask/app.py
+python /var/www/html/todo-flask/app.py
