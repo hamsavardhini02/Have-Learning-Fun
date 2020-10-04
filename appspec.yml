@@ -4,6 +4,9 @@ files:
   - source: /
     destination: /var/www/html
 hooks:
+  AfterInstall:
+    - location: ./after_install.sh
+      runas: root
   ApplicationStart:
     - location: ./start_server.sh
       runas: root
